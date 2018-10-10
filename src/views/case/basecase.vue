@@ -36,7 +36,6 @@
                         <Icon type="ios-keypad"></Icon>
                         用例信息
                     </p>
-
                     <Table :loading="loading" :columns="caseTable" :data="caseTableData" :border="showBorder"
                            no-data-text="没有数据" height="470"
                            :stripe="showStripe" style="margin-top: -7px;margin-left: -7px"
