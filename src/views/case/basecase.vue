@@ -12,7 +12,6 @@
                     <Form ref="searchProjectEnvName" :model="searchProjectEnvName" :label-width="80"
                           style="margin-top: 13px;margin-left: -20px">
                         <FormItem label="" prop="name">
-                            <!--<Input v-model="searchProjectEnvName.name" style="width: 270px;margin-left: -20px" placeholder="请输入搜索的项目名称"></Input>-->
                             <Row>
                                 <Col span="5" style="padding-right:10px; margin-left: -5%;width:150px">
                                     <Select v-model="projectSelectModel" placeholder="请选择项目" filterable>
@@ -23,9 +22,6 @@
                                 </Col>
                                 <Input v-model="searchProjectEnvName.name" style="width: 250px;margin-left: 2%"
                                        icon="android-search" placeholder="请输入搜索的用例名称"></Input>
-                                <!--<Button type="primary" @click="searchCommonCase" style="margin-left: 2%;"-->
-                                <!--icon="android-search">搜索-->
-                                <!--</Button>-->
                                 <Button type="primary" style="margin-left: 40px" @click="addCase">
                                     <Icon type="ios-plus-empty" style="margin-right: 4px"></Icon>
                                     Add
